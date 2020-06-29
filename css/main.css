@@ -202,24 +202,7 @@ footer span {
     .container{
 	max-width: 1200px;
 }
-    header {
-    justify-content: space-between;
-    margin: auto;
-    flex-flow: row nowrap;
-}
 
-    header nav ul {
-
-    flex-flow: row nowrap;
-}
-    header h1 {
-    border-bottom: 0;
-    padding-left: 20px;
-
-}
-    header nav {
-	padding: 0 20px 0 0;
-}
     .top-section{
     width: 100%;
 }
@@ -250,5 +233,24 @@ footer span {
  /*----------Media Desktop----------*/
 
 @media (min-width:1200px){
+    
+    header {
+    justify-content: space-between;
+    margin: auto;
+    flex-flow: row nowrap;
+}
+
+    header nav ul {
+
+    flex-flow: row nowrap;
+}
+    header h1 {
+    border-bottom: 0;
+    padding-left: 20px;
+
+}
+    header nav {
+	padding: 0 20px 0 0;
+}
     
 }
